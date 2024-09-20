@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wipro</title>
+    <style>
+        * {
+
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-decoration: none;
+
+        }
+
+        nav {
+            position: sticky;
+            top: 0px;
+            width: 100%;
+            z-index: 3;
+
+
+        }
+
+        .header ul {
+            display: flex;
+            position: sticky;
+
+
+            color: #c7d0d9;
+
+            height: 100px;
+            justify-content: space-around;
+            width: 100%;
+            background-color: azure;
+            font-weight: 1000;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .header li {
+            align-content: center;
+
+        }
+
+        .header li :hover {
+            text-decoration: underline;
+        }
+
+
+        .main-top {
+            width: 100%;
+            height: 650px;
+
+            display: flex;
+            margin-bottom: 10px;
+
+            /* border: 1px solid wheat; */
+
+
+
+        }
+
+        .main-top-upper hr {
+
+            background-color: #4B0082;
+        }
+
+        .main-top-row-1 {
+            width: 45%;
+            padding-left: 50px;
+
+        }
+
+        .main-top-upper {
+            display: flex;
+            align-items: center;
+
+            padding-right: 10px;
+        }
+
+        .main-top-button {
+            width: 20%;
+            justify-content: center;
+            padding: 100px;
+            margin: 25px;
+            margin-bottom: 20px;
+            display: grid;
+            place-items: center;
+
+
+        }
+
+
+        .main-top-button a {
+
+            background-color: #4B0082;
+            color: white;
+            padding: 30px 50px;
+
+            border-radius: 30px;
+            margin: 25px;
+            position: relative;
+            right: 150px;
+            font-size: 20px;
+            z-index: 2;
+
+
+
+
+
+
+
+        }
+
+        .main-top-button a:hover {
+            text-decoration: underline;
+            background-color: #ccc;
+            border: 3px solid #4B0082;
+            color: #4B0082;
+        }
+
+        .main-top-row-1 p {
+
+            font-size: 10px;
+            color: #4B0082;
+            position: relative;
+            left: 70px;
+        }
+
+        .main-top-row-1 h1 {
+            color: #4B0082;
+            font-size: 55px;
+
+            margin-bottom: 40px;
+            position: relative;
+            left: 70px;
+        }
+
+        .main-top-img {
+            place-items: center;
+            width: 50%;
+        }
+
+
+
+        .main-top-img img {
+            width: 160%;
+            height: fit-content;
+            border-radius: 30px;
+            position: relative;
+            right: 350px;
+
+
+        }
+
+
+
+        .row-5-img {
+            width: 100%;
+            height: 700px;
+            background-color: black;
+            display: flex;
+        }
+
+        .row-5-img-1 h1 {
+            padding-left: 100px;
+            justify-content: center;
+            font-size: 24px;
+
+
+        }
+
+        .row-5-img-1 p {
+            padding-left: 100px;
+            justify-content: center;
+
+        }
+
+
+        .row-5-img-2 {
+            float: right;
+            padding-right: 30px;
+            position: relative;
+            top: 30px;
+
+        }
+
+        .inside img {
+            position: relative;
+            bottom: 400px;
+            left: 350px;
+
+        }
+
+        .main-top-mid {
+            /* width:100%; */
+            display: flex;
+        }
+
+        .main-top-1 {
+            width: 50%;
+
+            float: left;
+        }
+
+        .main-top-2 {
+            width: 50%;
+
+            float: right;
+
+
+        }
+
+        .main-top-1 h1 {
+            position: relative;
+            bottom: 500px;
+            left: 100px;
+            color: white;
+            font-size: 60px;
+
+
+        }
+
+        .main-top-1 h1:hover {}
+
+        .main-top-2 h1 {
+            position: relative;
+            bottom: 500px;
+            left: 100px;
+            color: white;
+            font-size: 60px;
+
+
+        }
+
+        .main-top-1 p {
+            position: relative;
+            bottom: 500px;
+            left: 100px;
+            color: white;
+            font-size: 20px;
+
+        }
+
+        .main-top-mid-1-button a {
+
+            background-color: white;
+            color: #4B0082;
+            padding: 30px 50px;
+            font-size: 20px;
+
+
+            border-radius: 30px;
+            position: relative;
+
+            bottom: 400px;
+            left: 300px;
+            align-content: center;
+        }
+
+        .main-top-2 p {
+            position: relative;
+            bottom: 500px;
+            left: 100px;
+            color: white;
+            font-size: 30px;
+
+        }
+
+        .main-top-mid-1-button a:hover {
+            text-decoration: underline;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        .footer {
+            width: 100%;
+            height: 80px;
+            align-content: baseline;
+            border: 1px solid;
+            background-color: #4B0082;
+            color: aliceblue;
+            border-radius: 1px;
+            font-size: 18px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        .footer {
+            display: flex;
+            align-items: center;
+            width: 100%;
+
+
+        }
+        .footer-first{
+            width: 30%;
+        }
+        
+        .footer-middle{
+            width:40%;
+            text-align: center;
+            
+        }
+
+        .footer-middle a {
+
+            color: aliceblue;
+            justify-content:space-between;
+
+        }
+
+        .footer-middle a:hover {
+            text-decoration: underline;
+        }
+
+        .footer-last {
+           width: 30%;
+           text-align: end;
+          
+           padding-right: 70px;
+           
+
+
+
+        }
+
+        .image-row-1 {
+            padding-bottom: 50px;
+        }
+
+        .image-row-1 img {
+            width: 100%;
+        }
+
+
+
+        .form-row-1 {
+
+            font-size: 20px;
+            /* border:1px solid; */
+            margin: 10px;
+            padding-left: 400px;
+            padding-bottom: 10px;
+
+        }
+
+        .form-row-1 h1 {
+            font-size: 2.5rem;
+
+            color: black;
+            margin-bottom: 20px;
+        }
+
+        .form-row-1 {
+            font-size: 1.75rem;
+            color: black;
+            margin-bottom: 30px;
+
+        }
+
+        .form-row-2 {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            text-align: center;
+            width: 90%;
+            max-width: 800px;
+            margin: auto;
+            padding-bottom: 20px;
+        }
+
+        .form-row-2 form input {
+
+            padding: 5px;
+            /* Increased padding for bigger input box */
+            font-size: 1rem;
+            /* Larger font size */
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            width: 100%;
+            max-width: 500px;
+            /* Increased width */
+            margin: 0 auto;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 100;
+
+
+
+        }
+
+        .form-row-2 form select {
+            padding: 5px;
+            /* Increased padding for bigger input box */
+            font-size: 1rem;
+            /* Larger font size */
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            width: 100%;
+            max-width: 500px;
+            /* Increased width */
+            margin: 0 auto;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+
+        .form-row-button {
+            margin: 45px;
+        }
+
+        .form-row-button a {
+            background-color: #4B0082;
+            color: white;
+            padding: 20px 70px;
+
+            border-radius: 50px;
+            margin: 550px;
+            border-color: #4B0082;
+            border: 3px solid #4B0082;
+
+
+
+        }
+
+        .form-row-button a:hover {
+            background-color: whitesmoke;
+            color: #4B0082;
+
+
+
+        }
+
+        .form-row-check {
+            align-items: center;
+            padding-left: 500px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <div class="header">
+
+            <ul>
+                <img src="Wipro_Primary Logo_Color_RGB.svg" alt="wipro" width="100px">
+                <li><a href="">Services</a></li>
+                <li><a href="">Industries</a></li>
+                <li><a href="">Insights</a></li>
+                <li><a href="">About Wipro</a></li>
+                <li><a href="">Careers</a></li>
+                <li><a href="">Contact Us</a>
+                </li>
+                <li>
+                    <img src="world-wide-web.png" width:2% alt="world-wide-web" width="30px" height="30px">
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="main-top">
+
+        <div class="main-top-row-1">
+
+            <div class="main-top-upper">
+                <img src="download.jfif" alt="wipro Logo" width="35%">
+
+                <p style="font-size: 30px; font-weight: 500;  ">fullstridecloud</p>
+                <!-- <hr style="border: 1px solid black; width: 100%;"> -->
+
+
+
+
+                <p
+                    style="color: black; padding-left: 100px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-size: 30px; font-weight: 700;">
+                    Forebes <br>INSIGHTS</p>
+
+
+            </div>
+
+
+            <h1>
+
+                Master Cloud <br> Economics & Harness <br> the Power of AI .
+            </h1>
+
+
+
+            <p style="font-size: 25px;">
+                An Insight Report by Wipro FullStride <br> Cloud & Forbes
+            </p>
+
+        </div>
+
+
+        <div class="main-top-button">
+            <a href="#">LearnMore</a>
+        </div>
+
+
+        <div class="main-top-img">
+            <img src="pexels-olly-842548.jpg" alt="" width="">
+        </div>
+
+
+
+
+    </div>
+
+
+
+    <div class="main-top-mid">
+
+        <div class="main-top-1">
+            <video src="hp-marelli-design-cloud.mp4" style="height: 600px;"></video>
+            <h1>The Future of Facility <br> Infrastructure <br>Management is Digital</h1>
+            <p>Management is Digital.
+                Today's buildings and industrial facilities are mind- <br>bendingly complex.
+                To manage this complexity, digital <br>innovations like VR/XR, Al,
+                and loT are becoming <br>absolutely essential.</p>
+            <div class="main-top-mid-1-button">
+                <a href="#">LearnMore</a>
+            </div>
+        </div>
+
+        <div class="main-top-2">
+            <img src="Data Entry Guide.jfif" style="height: 600px; width: 100%;"></video>
+            <h1>Marelli Brings Vehicle <br>Design to the Cloud.</h1>
+            <p>Today's market-leading cars rely on software defined <br>
+                - features that delight customers. Wipro's Cloud Car® <br>
+                framework is enabling Marelli to lead the way forward.</p>
+            <div class="main-top-mid-1-button">
+                <a href="#">LearnMore</a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="row-5-img">
+        <div class="row-5-img-1" style="width: 50%;">
+            <h1 style="color: #c7d0d9; font-size: 4em;padding-top: 30px;">ABB partners with <br> Wipro to transform its
+                <br> Information Systems <br> Digital Workplace.</h1><br>
+            <p style="color: #c7d0d9; font-size: 30px;">Delivering enhanced, personalised <br> user experiences
+                underpinned by <br> real-time analytics, Gen-AI and pro- <br>active and predictive monitoring
+            </p>
+
+        </div>
+        <div class="row-5-img-2" style="width: 50%;">
+            <div class="outside"> <img src="abb-partners-with-wipro-960x721.jpg" alt=" machinary" width="100%">
+            </div>
+            <div class="inside"> <a href="#"> <img src="icon_play.png" alt="play icon"></a></div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <div class="image-row-1">
+
+
+        <a href="#"> <img src="top-image.png" alt=""></a>
+        <a href="#"> <img src="bottom-img.png" alt=""></a>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="form-row-1">
+
+        <h1>Every day, Wipro leverages AI-infused technologies <br>
+            <p style="padding-left: 50px;">to empower clients around the globe to build.</p>
+            <p style="padding-left: 30px;">a more resilient, secure and sustainable </p>
+        </h1>
+        <h1 style="padding-left: 350px;">. </h1>
+        <h1 style="padding-left: 170px;">How can we help you?</h1>
+
+    </div>
+    <div class="form-row-2">
+
+        <form action="">
+            <input type="text" id="firstname" placeholder="First Name"><br><br>
+            <input type="text" id="firstname" placeholder="Last Name"><br><br>
+            <input type="text" id="firstname" placeholder="Work Email" required><br><br>
+            <input type="text" id="firstname" placeholder="Job Title"><br><br>
+            <input type="text" id="firstname" placeholder="Company"><br><br>
+            <select name="" id="">
+                <option value="">Country</option>
+                <option value="">India</option>
+                <option value="">China</option>
+                <option value="">pakistan</option>
+                <option value="">Russia</option>
+                <option value="">America</option>
+                <option value="">Austriala</option>
+            </select>
+            <br><br>
+            <input type="text" id="firstname" placeholder="Message" style="padding-bottom: 50px; ;"><br><br>
+
+
+
+
+
+
+
+    </div>
+
+    <div class="form-row-check">
+        <input type="checkbox"> I conform,I read the Aggrement of <a href="#"> wipro private policy</a>
+        and consent to share my information <br><br>
+        <input type="checkbox">I would like to receive updates and alerts from wipro <br>
+
+    </div>
+    <div class="form-row-button">
+        <a href="#">Submit</a>
+    </div>
+
+    <p style="text-align: center; padding-bottom: 30px; padding-left: 10px;"> <a href="#">click here</a> to opt out of
+        Wipro's Mailing List </p>
+
+
+
+
+
+
+
+
+
+
+    <div class="footer">
+        <div class="footer-first">  <p style="padding-left: 50px;">&copy;Wipro2024 </p>
+        </div>
+      
+
+        <div class="footer-middle">
+            <a  href="#">Disclaimer</a>
+            <a  href="#">Privacy</a>
+
+        </div>
+
+        <div class="footer-last" >
+
+            <a href="#"><img src="icon-facebook.png" alt="facebook" width="30px"></a>
+            <a href="#"><img src="icon-Instagram.png" alt="Instragram" width="30px"></a>
+            <a href="#"><img src="icon-linkedin.png" alt="Linkedin" width="30px"></a>
+            <a href="#"><img src="icon-youtube.png" alt="youtube" width="30px"></a>
+        </div>
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
